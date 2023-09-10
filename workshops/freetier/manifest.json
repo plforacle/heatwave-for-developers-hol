@@ -1,5 +1,5 @@
 {
-  "workshoptitle": "HeatWave For Application Development -HOL",
+  "workshoptitle": "Analyze data at web scale in object store with MySQL HeatWave Lakehouse - Developer",
     "help": "livelabs-help-oci_us@oracle.com",
     "tutorials": [
         {
@@ -20,20 +20,20 @@
         },
 
         {
-          "title": "Lab 2: Create Compute with MySQL Shell",
+          "title": "Lab 2: Create Bastion and LAMP Server",
           "filename": "../../create-compute-with-mysqlsh/create-compute-with-mysqlsh.md"
-        },
-                        
-        {
-          "title": "Lab 3: Upload data to Object Storage for HeatWave Lakehouse",
-          "filename": "../../create-lakehouse-files/create-lakehouse-files.md"  
         },
 
         {
-          "title": "Lab 4: Add HeatWave Cluster to the DB sytem",
+          "title": "Lab 3: Add HeatWave Cluster to the DB sytem",
           "filename": "../../add-heatwave-cluster/add-heatwave-cluster.md"
+        }, 
+
+        {
+          "title": "Lab 4: Upload data to Object Storage for HeatWave Lakehouse",
+          "filename": "../../create-lakehouse-files/create-lakehouse-files.md"  
         },
-        
+
         {
           "title": "Lab 5: Load data into HeatWave Cluster ",
           "filename": "../../load-db-heatwave-cluster/load-db-heatwave-cluster.md"
@@ -55,12 +55,27 @@
         }, 
 
         {
-          "title": "Lab 9: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
+          "title": "Lab 9: (Bonus)  Create Oracle Analytics Cloud Instance",
+          "filename": "../../create-oac-instance/create-oac-instance.md"  
+        },
+
+        {
+          "title": "Lab 10:  (Bonus)  Create datasets in Oracle Analytics Cloud ",
+          "filename": "../../create-oac-dataset/create-oac-dataset.md"
+        },
+
+        {
+          "title": "Lab 11: (Bonus)  Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave ",
+          "filename": "../../visualize-oac/visualize-oac.md"
+        },
+
+        {
+          "title": "Lab 12: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
           "filename": "../../apex-heatwave/apex-heatwave.md"
         }, 
         
         {
-          "title": "Lab 10: Stop OCI Services",
+          "title": "Lab 13: Stop OCI Services",
           "filename": "../../stop-services/stop-services.md"
         },
 
