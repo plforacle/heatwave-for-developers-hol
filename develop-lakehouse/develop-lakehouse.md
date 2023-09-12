@@ -137,7 +137,7 @@ In this lab, you will be guided through the following tasks:
 
     ![mydbchart out](./images/mydbchart-out.png "mydbchart out ")
 
-## Task 3: Create Customer Analytic Application
+## Task 3: Create Customer Analytics Application
 
 1. Go to the development folder
 
@@ -148,10 +148,10 @@ In this lab, you will be guided through the following tasks:
 2. Get Eureka Application files  from Storage Object Stogage
 
     ```bash
-    <copy>sudo wget  https://objectstorage.us-ashburn-1.oraclecloud.com/p/RH22M6GFa2-UEFprLKU7dTveyJAsfbFgCFVXXtR_AxnY4IyU4mSfe29pr-kqt-Vv/n/mysqlpm/b/mysql_customer_orders/o/orders_web.zip</copy>
+    <copy>sudo wget  https://objectstorage.us-ashburn-1.oraclecloud.com/p/oseYwxEYBs4j6c_0Sphi-jc0PwqMuf6wIOZCijB3KAaYU3eZ6ZvDIuG1gjyowzyr/n/mysqlpm/b/mysql_customer_orders/o/orders_web.zip</copy>
     ```
 
-3. Unnzip orders_web.zip file 
+3. Unnzip orders_web.zip file
 
     ```bash
     <copy>sudo unzip orders_web.zip </copy>
@@ -195,27 +195,19 @@ In this lab, you will be guided through the following tasks:
 
     ![MDS](./images/welcome.png "welcome ")
 
-4. From the Items purchased Page click the "Loyalty Reward Promotion" button
+4. From the Items purchased Page click the "Shop" button
 
     ![MDS](./images/promotion-activity.png "promotion activity ")
 
-5. From the Eureka Promotions Page click the "Accept" button
+5. From the Promotion Shop Page select Items to purchase and click the "Submitt" button
 
-    ![MDS](./images/eureka-promotion.png "eureka promotion")
+    ![MDS](./images/shop.png "eureka shop")
 
-6. From the Eureka Promotion Coupons  Page click the "Shop" button
-
-    ![MDS](./images/shop.png "shop")
-
-7. From the Promotion Shop  Page select Items to purchase and click the "Submitt" button
-
-    ![MDS](./images/promotion-shop.png "promotion shop")
-
-8. From the Items Purchase Page   click the "Continue" button
+6. From the Items Purchase Page click the "Continue" button
 
     ![MDS](./images/items-purchased.png "items purchased")
 
-9. From the Thank You  Page   click the "Signout" button
+7. From the Thank You  Page   click the "Signout" button
 
     ![MDS](./images/thankyou.png "thank you")
 

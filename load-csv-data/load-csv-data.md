@@ -286,7 +286,13 @@ We will use the second option which Loads the data by specifying a PAR URL for a
     The DELIVERY table now has 34 million rows.
 8. Output of steps 6 and 7
 
-![Add data to tabel](./images/load-final-delivery-table.png "load final delivery table")
+    ![Add data to table](./images/load-final-delivery-table.png "load final delivery table")
+
+9. Exit MySQL Shell
+
+      ```bash
+      <copy>\q</copy>
+      ```
 
 You may now **proceed to the next lab**
 
