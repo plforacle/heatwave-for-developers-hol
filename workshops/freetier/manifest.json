@@ -35,7 +35,7 @@
         },
 
         {
-          "title": "Lab 5: Load data into HeatWave Cluster ",
+          "title": "Lab 5: Load data into HeatWave Cluster and Run Query comparisons ",
           "filename": "../../load-db-heatwave-cluster/load-db-heatwave-cluster.md"
         },
 

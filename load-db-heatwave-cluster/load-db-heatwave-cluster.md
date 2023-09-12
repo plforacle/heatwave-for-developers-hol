@@ -75,7 +75,7 @@ In this lab, you will be guided through the following task:
 
     ![Cluster is loaded](./images/heatwave-loaded-data.png "heatwave loaded data")
 
-## Task 2: Run Queries in HeatWave
+## Task 2: Run Query Comparisons
 
 1. If not already connected then connect to MySQL using the MySQL Shell client tool with the following command:
 

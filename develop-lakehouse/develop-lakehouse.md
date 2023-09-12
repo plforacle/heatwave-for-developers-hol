@@ -104,7 +104,7 @@ In this lab, you will be guided through the following tasks:
 
     ![Application output](./images/order-app-output.png " order app output")
 
-## Task 2: Create Google Chart Application to display Lakehouse data
+## Task 2: Create Google Chart Application to display Database and Lakehouse data
 
 1. Go to the development folder
 
@@ -137,7 +137,7 @@ In this lab, you will be guided through the following tasks:
 
     ![mydbchart out](./images/mydbchart-out.png "mydbchart out ")
 
-## Task 3: Create Customer Analytics Application
+## Task 3: Create the e-commerce Application
 
 1. Go to the development folder
 
@@ -145,7 +145,7 @@ In this lab, you will be guided through the following tasks:
     <copy>cd /var/www/html</copy>
     ```
 
-2. Get Eureka Application files  from Storage Object Stogage
+2. Get the Application files  from Object Stogage
 
     ```bash
     <copy>sudo wget  https://objectstorage.us-ashburn-1.oraclecloud.com/p/oseYwxEYBs4j6c_0Sphi-jc0PwqMuf6wIOZCijB3KAaYU3eZ6ZvDIuG1gjyowzyr/n/mysqlpm/b/mysql_customer_orders/o/orders_web.zip</copy>
@@ -168,7 +168,7 @@ In this lab, you will be guided through the following tasks:
     - Save the orders_web/config.php
     ![MDS](./images/eurekaweb-config.png " ")
 
-## Task 4: Run the Marketing Analytic Application
+## Task 4: Run the e-commerce Application
 
 1. From your local machine connect to heatwave-client IP Address/orders_web/login.php 
 
@@ -197,7 +197,7 @@ In this lab, you will be guided through the following tasks:
 
 4. From the Items purchased Page click the "Shop" button
 
-    ![MDS](./images/promotion-activity.png "promotion activity ")
+    ![MDS](./images/promotion-activity.png "activity ")
 
 5. From the Promotion Shop Page select Items to purchase and click the "Submitt" button
 
