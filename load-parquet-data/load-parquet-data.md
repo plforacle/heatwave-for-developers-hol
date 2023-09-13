@@ -116,7 +116,9 @@ In this final task of loading data we will load data into a table DELIVERY_VENDO
 10. Output of steps 5 thru 9
     ![Create Vendor](./images/create-vendor-table.png " create vendor table")
 
-11. Analyze DB and Lakehouse data 
+## Task 3: Analyze DB and Lakehouse data
+
+1. Execute the following SQL query to see how delivery and orders data affect customer satisfation
 
     ```bash
     <copy>select p.product_name, o.order_status,st.store_name,
@@ -138,6 +140,10 @@ deo.order_status delivery_status,dev.vendor_name delivery_vendor_name,
   on deo.delivery_vendor_id = dev.id
   group  by p.product_name, o.order_status, deo.order_status,dev.vendor_name,st.store_name;</copy>
     ```
+    - Workbench SQL query Results
+    ![mysql lakehouse query](./images/mysql-lakehouse-query.png " mysql lakehouse query")
+
+2. The query results show that all orders are automatically sent out for delivery, even though there are different physical store locations where customers can pick up their orders. As a result, the Eureka developers have added a "Delivery Location" choice feature to the e-commerce application. Do Lab 8 to see this new feature that can improve Customer Satisfaction!
 
 You may now **proceed to the next lab**
 

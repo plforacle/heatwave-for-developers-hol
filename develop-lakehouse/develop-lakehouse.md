@@ -203,7 +203,7 @@ In this lab, you will be guided through the following tasks:
 
     ![MDS](./images/shop.png "eureka shop")
 
-6. From the Items Purchase Page click the "Continue" button
+6. From the Items Purchase Page select a "Delivery Location" and  click the  and the  "Continue" button
 
     ![MDS](./images/items-purchased.png "items purchased")
 
