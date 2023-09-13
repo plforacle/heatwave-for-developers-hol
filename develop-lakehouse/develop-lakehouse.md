@@ -148,7 +148,7 @@ In this lab, you will be guided through the following tasks:
 2. Get the Application files  from Object Stogage
 
     ```bash
-    <copy>sudo wget  https://objectstorage.us-ashburn-1.oraclecloud.com/p/oseYwxEYBs4j6c_0Sphi-jc0PwqMuf6wIOZCijB3KAaYU3eZ6ZvDIuG1gjyowzyr/n/mysqlpm/b/mysql_customer_orders/o/orders_web.zip</copy>
+    <copy>sudo wget  https://objectstorage.us-ashburn-1.oraclecloud.com/p/bpmpXfQwwE3iTqiVOb-G2oCD3zBFKuxlvtPHsvCMOXHWkV51r3Yapowf0N0g4Dna/n/mysqlpm/b/mysql_customer_orders/o/orders_web.zip</copy>
     ```
 
 3. Unnzip orders_web.zip file

@@ -116,6 +116,29 @@ In this final task of loading data we will load data into a table DELIVERY_VENDO
 10. Output of steps 5 thru 9
     ![Create Vendor](./images/create-vendor-table.png " create vendor table")
 
+11. Analyze DB and Lakehouse data 
+
+    ```bash
+    <copy>select p.product_name, o.order_status,st.store_name,
+deo.order_status delivery_status,dev.vendor_name delivery_vendor_name,
+     sum( oi.quantity * oi.unit_price ) total_sales,
+     count(*) order_count
+  from   orders o
+  join   order_items oi
+  on o.order_id = oi.order_id
+  join   customers c
+  on o.customer_id = c.customer_id
+  join   products p
+  on oi.product_id = p.product_id
+  join   stores st 
+  on st.store_id = o.store_id
+  join   delivery_orders deo
+  on o.order_id = deo.order_id
+  join   DELIVERY_VENDOR dev
+  on deo.delivery_vendor_id = dev.id
+  group  by p.product_name, o.order_status, deo.order_status,dev.vendor_name,st.store_name;</copy>
+    ```
+
 You may now **proceed to the next lab**
 
 ## Acknowledgements
