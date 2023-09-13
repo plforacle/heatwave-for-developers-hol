@@ -14,8 +14,9 @@ HeatWave Lakehouse. The deployment goals are:
 2. Show how MySQL HeatWave Lakehouse enables you to perform analytics on top of your object storage data without having to move data into the MySQL database.
 3. Show how to run queries on data coming from MySQL InnoDB storage loaded into HeatWave and data loaded from object storage into HeatWave all using standard MySQL syntax and familiar querying commands.
 
-_Estimated Time:_ 3 hours
-
+_Estimated Time:
+- Labs 1 through 8  : 1.5 hours
+- With (Bonus) Labs 1 through 12 : 3 hours
 ### About Product/Technology
 
 
@@ -29,16 +30,21 @@ MySQL HeatWave Lakehouse is 17X faster than Snowflake and 6X faster than Amazon 
 
 ### Objectives
 
-In this lab, you will be guided through the following steps:
+In this HOL Workshop, you will use OCI and HeatWave Services to help Fictitious Corp Eureka improve its Customer Satisfaction by completing the following labs in a Development Environment:
 
-- Create MySQL Database for HeatWave DB System with Compartment and VCN
-- Add HeatWave cluster to DB System
-- Connect to MySQL HeatWave DB
-- Load data from OCI Object Store
-- Run queries
-- Load additional data
-- Develop LAMP Applications with HeatWave and Lakehouse
-- Build APEX application with HeatWave
+1. Create a MySQL HeatWave Database System
+2. Create a Bastion and Linux Apache MySQL PHP (LAMP) Server
+3. Add a HeatWave Cluster to the Database System
+4. Upload CSV and Parquet files data into an OCI Object Storage Bucket
+5. Load MySQL Database data into the HeatWave Cluster and Run Query comparisons
+6. Automatically Load CSV format data directly from OCI Object Store to Lakehouse
+7. Manually Load Parquet format data directly from the Object Store
+8. Analyze Lakehouse  data from the Orders, Stores, Delivery\_orders, and Delivery\_vendors tables to identify new features for the e-commerce application
+9. Create and Run MySQL HeatWave and Lakehouse Applications on LAMP Server.
+10. Review how  Customer Satisfaction is achieved with the New "Select Delivery Location" feature in the e-commerce application "Purchase Page ".
+11. Create an Oracle Analytics Cloud instance and Build a real-time dashboard
+12. Develop MySQL HeatWave Low Code Application with Oracle APEX
+13. Stop OCI Services
 
 ### Prerequisites
 
