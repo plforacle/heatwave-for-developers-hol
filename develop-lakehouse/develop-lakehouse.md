@@ -125,7 +125,7 @@ In this lab, you will be guided through the following tasks:
     - add the content to the mydbchart.php file that you are  creating
 
         ![dbchart select all.](./images/dbchart-select-all.png "dbchart select all ")
-    - Remember to replace the IP adress, username, and password (lines 2 and 96 )
+    - Remember to replace the IP address, username, and password (lines 2 and 96 )
         - $con = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         - $link = mysqli_connect('30.0...','admin','Welcome#123','airportdb');
         ![dbchart copied](./images/dbchart-copied.png "dbchart copied ")
