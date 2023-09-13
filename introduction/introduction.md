@@ -32,7 +32,7 @@ MySQL HeatWave Lakehouse is 17X faster than Snowflake and 6X faster than Amazon 
 
 In this HOL Workshop, you will use OCI and HeatWave Services to help Fictitious Corp Eureka improve its Customer Satisfaction by completing the following labs in a Development Environment:
 
-1. Create a MySQL HeatWave Database System
+1. Create a MySQL HeatWave Database System and Load existing on-premise MySQL Schema and data
 2. Create a Bastion and Linux Apache MySQL PHP (LAMP) Server
 3. Add a HeatWave Cluster to the Database System
 4. Upload CSV and Parquet files data into an OCI Object Storage Bucket
